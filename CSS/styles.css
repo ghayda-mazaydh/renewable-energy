@@ -1,0 +1,38 @@
+body{ background-color: rgb(236, 241, 245);
+    text-decoration: none;
+}
+h1 {text-align: center;
+    
+    font-size: 400%; 
+    color:rgb(253, 228, 0);
+
+}
+header nav ul li a { text-decoration: none;
+font-size: 100%;
+}
+
+li{ display: inline;
+    font-size: 50%;
+
+
+padding: 40px; 
+text-decoration: none;
+
+
+}
+section {text-align: center;
+    font-size: 90%;
+    
+    
+}
+
+.sun { width: 1350px;}
+
+p{text-align: left;}
+
+h2 {text-align: left;
+    font-size: 150%;}
+
+
+footer{text-align: center;}
+
