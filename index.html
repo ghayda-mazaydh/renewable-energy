@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
   
     <title>solar</title>
+    <script src="CSS/6.js"> </script>
     <link rel="stylesheet" href="CSS/styles.css">
 </head>
 <body>
@@ -39,7 +40,25 @@
       
       <p>
             The most commonly known solar cell is configured as a large-area p–n junction made from silicon. Other possible solar cell types are organic solar cells, dye sensitized solar cells, perovskite solar cells, quantum dot solar cells etc. The illuminated side of a solar cell generally has a transparent conducting film for allowing light to enter into active material and to collect the generated charge carriers. Typically, films with high transmittance and high electrical conductance such as indium tin oxide, conducting polymers or conducting nanowire networks are used for the purpose
-      </p>      </p>
+            <p>Click the button.</p>
+
+            <button onclick="myFunction()">Try it</button>
+            
+            <p id="demo"></p>
+            
+            <script>
+            function myFunction() {
+              var txt;
+              var r = confirm("Press a button!\nEither OK or Cancel.\nThe button you pressed will be displayed in the result window.");
+              if (r == true) {
+                txt = "You pressed OK!";
+              } else {
+                txt = "You pressed Cancel!";
+              }
+              document.getElementById("demo").innerHTML = txt;
+            }
+            </script>
+            
     </h2>
 </section>
        </article>
@@ -48,8 +67,10 @@
        <footer>
 copy rights 2019 | Privacy policy | about us
        </footer>
+     
    </main>
 </body>
+</html>
 
     
 
