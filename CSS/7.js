@@ -7,6 +7,7 @@ var a;
 
 while (grade > 100) {  
     
+    
     grade = prompt ('try again'); 
     
 }
