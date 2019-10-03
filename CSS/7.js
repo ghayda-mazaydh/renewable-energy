@@ -15,7 +15,7 @@ while (grade > 100) {
     for (i=1; i <= a; i++) {
         if (grade > 0 && grade < 50) {
         percentage += 'fail';
-
+ 
     } else if (grade >= 50 && grade <= 100) {
          percentage = percentage +  'good';}
 }     
